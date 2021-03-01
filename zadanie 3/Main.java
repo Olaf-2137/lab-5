@@ -20,7 +20,7 @@ public class main {
     //Komunikaty
              int choice = 0;
              while (choice != 4) {
-                 System.out.println("1.Sprawdz stan konta\n2.Wypłać środki\n3.Wpłać środki\n4.Wyjdź");
+                 System.out.println("1.Sprawdz dostepne środki\n2.Wypłać środki\n3.Wpłać środki\n4.Wyjdź");
                  choice = scanner.nextInt();
     //wyjściowe 1 - 4
                  switch (choice) {
